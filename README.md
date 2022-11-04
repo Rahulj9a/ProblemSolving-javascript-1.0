@@ -7,8 +7,20 @@ I am solving problems staright under .js extension, so if you want to run file t
 For most of problems i have uploaded some diagrams so don't forget to check them out, you cam find them in html file, So open html file in browser and you will see them
 
 ## want to contribute?
-simply fork it, and put your own efforts in it, with that you can put your twitter username in .js folder   
-and the simply push it, always remember to make branch of your contribution, 
+simply fork it, and put your own efforts in it, always remember to make branch of your contribution, 
+
+if you are introducing a new problem name your file as follow:-
+LeetCode:- (problem Number).js
+Youtube and LeetCode:- (short and understable name).js 
+Don't forget to put Link of real source
+
+If you are introducing a new solution of existing question write as follow:-
+Method No. (serial Number)
+function(){
+    (your solution)
+}
 
 ## solutions
 Solutions and problems, both are in .js folder
+
+Feel free to DM me on <a href="https://twitter.com/rahulj9a"><img src = "https://user-images.githubusercontent.com/101471306/169535354-5703d14c-bc34-4a60-8189-ef473ee7e6bb.png" width="20px" height="20px" align="center">
