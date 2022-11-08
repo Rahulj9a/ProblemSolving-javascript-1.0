@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 //Reverse Vowels of a String
 
 //link:- https://leetcode.com/problems/reverse-vowels-of-a-string/
@@ -29,3 +30,28 @@ var reverseVowels = function (s) {
 Runtime: 131 ms, faster than 66.94% of JavaScript online submissions for Reverse Vowels of a String.
 Memory Usage: 47.4 MB, less than 96.07% of JavaScript online submissions for Reverse Vowels of a String. 
 */
+=======
+//345. Reverse Vowels of a String
+
+//Link:-https://leetcode.com/problems/reverse-vowels-of-a-string/
+
+var reverseVowels = function (s) {
+     s = s.split("");
+     vowel = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"];
+     vowelIndex = [];
+     vowelsIncluded = [];
+     s.forEach((e, i) => {
+          if (vowel.includes(e)) {
+               vowelIndex.push(i);
+               vowelsIncluded.push(e);
+          }
+     });
+
+     vowelsIncluded.reverse();
+     vowelsIncluded.forEach((e, i) => {
+          s[vowelIndex[i]] = e;
+     });
+     s = s.join("");
+     return s;
+};
+>>>>>>> Stashed changes
