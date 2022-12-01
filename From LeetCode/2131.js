@@ -1,4 +1,7 @@
 //Longest Palindrome by Concatenating Two Letter Words
+
+//Solved 
+
 /* You are given an array of strings words. Each element of words consists of two lowercase English letters.
 
 Create the longest possible palindrome by selecting some elements from words and concatenating them in any order. Each element can be selected at most once.
@@ -54,8 +57,4 @@ var longestPalindrome = function (words) {
 console.log(longestPalindrome(["cc", "ll", "xx"]));
 
 
-/* LeetCode respnse:-
-status: Accepted
-Runtime: 187 ms, faster than 97.99% of JavaScript online submissions.
-Memory Usage: 54.1 MB, less than 96.84% of JavaScript online submissions
-*/
+ 
